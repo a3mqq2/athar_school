@@ -63,9 +63,7 @@
 
     <div class="auth-main">
       <div class="auth-wrapper v2">
-        <div class="auth-sidecontent">
-          <img src="{{ asset('assets/auth-bg.png') }}" alt="images" class="img-fluid img-auth-side" />
-        </div>
+        
         <div class="auth-form">
           @yield('content')
         </div>

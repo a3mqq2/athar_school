@@ -26,10 +26,10 @@
         left: 0;
         right: 0;
         height: 4px;
-        background: var(--card-color, #fbd02b);
+        background: var(--card-color, #173a5e);
     }
     
-    .stats-card.primary::before { background: #fbd02b; }
+    .stats-card.primary::before { background: #173a5e; }
     .stats-card.success::before { background: #28a745; }
     .stats-card.warning::before { background: #ffc107; }
     .stats-card.info::before { background: #17a2b8; }
@@ -50,7 +50,7 @@
         margin-bottom: 15px;
     }
     
-    .stats-icon.primary { background: linear-gradient(135deg, #fbd02b, #4a7c59); }
+    .stats-icon.primary { background: linear-gradient(135deg, #173a5e, #23a89b); }
     .stats-icon.success { background: linear-gradient(135deg, #28a745, #20c997); }
     .stats-icon.warning { background: linear-gradient(135deg, #ffc107, #fd7e14); }
     .stats-icon.info { background: linear-gradient(135deg, #17a2b8, #007bff); }
@@ -148,7 +148,7 @@
     }
     
     .progress-ring-progress {
-        stroke: #fbd02b;
+        stroke: #173a5e;
         fill: transparent;
         stroke-width: 8;
         stroke-linecap: round;
@@ -177,7 +177,7 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background: #fbd02b;
+        background: #173a5e;
         color: white;
         display: flex;
         align-items: center;
@@ -211,8 +211,8 @@
     }
     
     .quick-action-btn:hover {
-        border-color: #fbd02b;
-        color: #fbd02b;
+        border-color: #173a5e;
+        color: #173a5e;
         background: rgba(45, 90, 5, 0.05);
         text-decoration: none;
     }
@@ -222,7 +222,7 @@
     }
     
     .dashboard-header {
-        background: linear-gradient(135deg, #fbd02b 0%, #4a7c59 100%);
+        background: linear-gradient(135deg, #173a5e 0%, #23a89b 100%);
         color: white;
         padding: 30px;
         border-radius: 15px;
@@ -672,7 +672,7 @@ document.addEventListener('DOMContentLoaded', function() {
             datasets: [{
                 label: 'إجمالي الشحنات',
                 data: monthlyData.map(item => item.shipments),
-                borderColor: '#fbd02b',
+                borderColor: '#173a5e',
                 backgroundColor: 'rgba(45, 90, 5, 0.1)',
                 tension: 0.4,
                 fill: true

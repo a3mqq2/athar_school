@@ -17,10 +17,10 @@
         .role-card::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(139,21,56,.05),transparent);transition:left .5s ease}
         .role-card:hover::before{left:100%}
         .role-card:hover{transform:translateY(-3px) scale(1.01);box-shadow:rgb(241 206 34);border-color:rgb(231 205 23)}
-        .role-icon{width:55px;height:55px;background:linear-gradient(135deg, #fbd02b 0%, #d0c900 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:#fff;box-shadow:0 6px 15px rgba(139,21,56,.25);transition:all .3s ease;position:relative;z-index:2;margin-bottom:1rem}
-        .role-icon::before{content:'';position:absolute;inset:-3px;background:linear-gradient(135deg, #fbd02b 0%, #d0c900 100%);border-radius:50%;z-index:-1;opacity:0;transition:opacity .3s ease}
+        .role-icon{width:55px;height:55px;background:linear-gradient(135deg, #173a5e 0%, #23a89b 100%);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;color:#fff;box-shadow:0 6px 15px rgba(139,21,56,.25);transition:all .3s ease;position:relative;z-index:2;margin-bottom:1rem}
+        .role-icon::before{content:'';position:absolute;inset:-3px;background:linear-gradient(135deg, #173a5e 0%, #23a89b 100%);border-radius:50%;z-index:-1;opacity:0;transition:opacity .3s ease}
         .role-card:hover .role-icon::before{opacity:1;animation:rotate 2s linear infinite}
-        .role-card:hover .role-icon{transform:scale(1.05);box-shadow:0 8px 20px #fbd02b}
+        .role-card:hover .role-icon{transform:scale(1.05);box-shadow:0 8px 20px #173a5e}
         @keyframes rotate{from{transform:rotate(0)}to{transform:rotate(360deg)}}
         .role-name{font-family:'Changa',sans-serif;font-size:1.2rem;font-weight:600;color:#2c3e50;margin-bottom:.4rem;line-height:1.3}
         .role-description{color:#7f8c8d;font-size:.85rem;font-weight:400;letter-spacing:.3px;font-family:'Changa',sans-serif}
@@ -39,7 +39,7 @@
 <div class="roles-container">
 
     <div class="head-page">
-        <h3 style="font-weight:bold;color:#fbd02b;">مرحبًا بعودتك {{ auth()->user()->name }}</h3>
+        <h3 style="font-weight:bold;color:#173a5e;">مرحبًا بعودتك {{ auth()->user()->name }}</h3>
         <div class="prayer font-weight-bold mb-4">
             اللهم بارك لي في وقتي ورزقي وجهدي وجسدي ومالي وعملي وارزقني البركة في كل شيء.. اللهم اجعلني مباركًا أينما كنت.
         </div>

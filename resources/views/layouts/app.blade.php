@@ -2,35 +2,28 @@
 <html lang="en">
 <head>
     <title>@yield('title', 'Dashboard') | نظام أثر الالكتروني </title>
-    <!-- [Meta] -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="description" content="نظام أثر الالكتروني   - نظام إدارة متكامل" />
     <meta name="author" content="Safe Tech" />
 
-    <!-- [Favicon] icon -->
     <link rel="icon" href="{{ asset('logo-primary.png') }}" type="image/x-icon" />
     
-    {{-- csrf-token --}}
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <!-- [Font] Family -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/fonts/inter/inter.css') }}" id="main-font-link" />
-    <!-- [Icons] -->
     <link rel="stylesheet" href="{{ asset('assets/fonts/phosphor/duotone/style.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/fonts/tabler-icons.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/fonts/feather.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/fonts/fontawesome.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/fonts/material.css') }}" />
-    <!-- [Template CSS Files] -->
     <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" id="main-style-link" />
     <link rel="stylesheet" href="{{ asset('assets/css/style-preset.css') }}" />
 
-    <!-- Custom CSS for Changa Font -->
     <style>
         body, .pc-sidebar, .pc-header, .card, .btn, .dropdown-item, .nav-link, h1, h2, h3, h4, h5, h6 {
             font-family: 'Changa', sans-serif;
@@ -64,7 +57,8 @@
 
 </head>
 
-<body 
+<body
+data-pc-preset="preset-1"
 data-pc-direction="rtl"
   data-pc-theme="light"
   data-pc-sidebar-caption="true"
