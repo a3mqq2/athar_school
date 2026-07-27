@@ -855,6 +855,7 @@ const executePromotion = async () => {
   border: 1px solid #6c757d;
 }
 
+
 .btn-outline-info {
   background: transparent;
   color: #17a2b8;
