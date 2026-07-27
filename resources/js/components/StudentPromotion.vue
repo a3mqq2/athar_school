@@ -1019,7 +1019,7 @@ const executePromotion = async () => {
   .student-info {
     min-width: 120px;
   }
-  
+   
   .form-select {
     font-size: 12px;
   }
